@@ -1,0 +1,149 @@
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+    .col {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+   header {
+    padding: 2rem 3%;
+   }
+    section {
+        padding: 10rem 3% 2rem;
+    }
+    .footer {
+        padding: 2rem 3%;
+    }
+    .timeline-items::before {
+        left: 7px;
+    }
+    .timeline-item:nth-child(odd) {
+        padding-right: 0;
+        text-align: left;
+    }
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-left: 37px;
+    }
+    .timeline-dot {
+        left: 0;
+    }
+}
+
+@media (max-width: 786px) {
+     #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 225px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.9);
+        transition: all 0.5s ease-in-out;
+        backdrop-filter: blur(10px);
+    }
+    .navbar a {
+        display: block;
+        padding: 17px;
+        font-size: 22px;
+    }
+    .navbar.active {
+        right: 0;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+    .home-content h1 {
+        font-size: 5rem;
+    }
+    .home-content {
+        order: 2;
+        text-align: center;
+    }
+    .home-img img {
+        width: 70vw;
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-img img {
+        width: 70vw;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    .skills {
+        flex-direction: column-reverse;
+    }
+    .skill-content {
+        margin: 0 2rem 4rem;
+    }
+    .skills img {
+        width: 52vw;
+        margin-top: 1rem;
+    }
+
+    .project h2 {
+        margin-bottom: 7rem;
+    }
+    .project .project-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 617px) {
+    .project .project-container {
+        grid-template-columns: 1fr;
+    }
+    .col {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .contact form .input-box input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 617px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .popup-content {
+        width: 90%;
+        padding: 20px;
+    }
+    .popup-content h2 {
+        font-size: 24px;
+    }
+
+    .popup-content p {
+        font-size: 14px;
+    }
+}
