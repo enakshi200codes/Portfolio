@@ -10,9 +10,8 @@ A modern and responsive personal portfolio website built to showcase my skills, 
 * Timeline showcasing education and experience
 * Skills section
 * Project showcase
-* Expandable About Me popup
-* Functional contact form with EmailJS integration
-* Success popup notification after sending messages
+* Expandable About Me
+* Functional contact form
 * Scroll reveal animations
 
 ## Technologies Used
